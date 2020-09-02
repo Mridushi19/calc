@@ -1,0 +1,10 @@
+public class Converter { 
+  public static void main(String[] args){
+   int n,y,d,m=60*24*365;
+   Scanner.out.println("Enter the number of minutes- ");
+   n=s.nextInt();
+   y=n/m;
+   d=(n/60/24)%365;
+   System.out.println(n+" minutes="+y+" years and "+d+" days");
+}
+}
