@@ -1,0 +1,25 @@
+public class New{
+   public static void main(String[] args)
+    {
+     Employee detail1=new Employee("Robert Wallstreet ","1994 ","64C-");
+     Employee detail2=new Employee("Sam Wallstreet ","2000 ","68D-");
+     Employee detail3=new Employee("John Wallstreet ","1999 ","26B-");
+  
+    System.out.println("Name "+"Year "+"Adress");
+    System.out.println(detail1.name+detail1.year+detail1.Adress);
+    System.out.println(detail2.name+detail2.year+detail2.Adress);
+    System.out.println(detail3.name+detail3.year+detail3.Adress);
+    
+ }}
+
+ class Employee {
+
+     String name;
+     String year;
+     String Adress;
+
+    public Employee(String name, String year, String Adress) {
+        this.name = name;
+        this.year = year;
+        this.Adress = Adress;
+    }
